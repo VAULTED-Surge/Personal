@@ -27,7 +27,7 @@ while (code_found == False):
     guess = [digit1,digit2,digit3,digit4]
     print(guess)
     if (guess == rec):
-      code_cracked = True
+      code_found = True
       print("code found")
   guesspin()
   
